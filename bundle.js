@@ -1,10 +1,21 @@
 "use strict";
 
-// ! const e let
-var a = 1; // * mutação
+var arr = [1, 2, 3, 4, 5]; // todo MAP
 
-var usuario = {
-  name: 'Erislandio'
-};
-usuario.name = "ERISLANDIO";
-console.log(usuario.name); // ! let
+var newArr = arr.map(function (item) {
+  return item + 2;
+});
+console.log(newArr); //TODO REDUCE
+
+var sum = arr.reduce(function (total, next) {
+  return total + next;
+});
+console.log(sum);
+var filter = arr.filter(function (item) {
+  return item > 1;
+});
+console.log(filter);
+var find = arr.find(function (item) {
+  return item === 3;
+});
+console.log(find);

@@ -1,0 +1,13 @@
+{
+  "name": "fundamentos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Erislandio/fundamento-es6.git",
+  "author": "Erislandio Soares <erislandiosoares21@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  }
+}

@@ -1,20 +1,15 @@
-// alert('Erislandio' *
+// ! const e let
 
-// ! classes es6
+const a = 1
 
-class TodoList {
-    constructor() {
-        this.todos = []
-    }
-
-    addTodo() {
-        this.todos.push("novo todo")
-        console.log(this.todos)
-    }
+// * mutação
+const usuario = {
+    name: 'Erislandio'
 }
 
-const minhaList = new TodoList();
+usuario.name = "ERISLANDIO"
 
-document.getElementById('btn').onclick = function() {
-    minhaList.addTodo();
-}
+console.log(usuario.name)
+
+// ! let
+
